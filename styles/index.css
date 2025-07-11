@@ -15,8 +15,6 @@ nav{
     margin: 0 140px ;
     align-items: center;
     justify-content: space-between;
-    /*margin-left: 150px;
-    margin-right: 150px;*/
 }
 .nav-title {
     font-size: 40px;
@@ -35,33 +33,40 @@ nav{
     color: white;
     border: none; 
 }
-
+.stay-focused{
+    margin-bottom: 90px;
+}
 /* banner */
 .slogan{
-    font-size: 65px;
+    font-size: 50px;
     font-weight: bold;
     color: #252432;
     text-align: center;
-    margin: 140px;
-    height: 80px;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 .text-center{
     text-align: center;
 }
 
 main{
-   /* background-color: rgb(158, 255, 242) ; */
    margin: 0 auto;
-   background-color:  (245 248 255);
+   background-color: rgb(245, 248, 255);
 }
+
 /* action */
+
 .action{
     display: flex;
     margin: 100px 140px;
-    /* padding: 50px; */
+    margin-top: 0px;
+    padding-top: 100px;
+    margin-bottom: 100px;
     justify-content: space-between;
     align-items: center;
-    gap: 10%;
+    gap: 25%;
 }
 .action-title-title{
     display: flex;
@@ -70,10 +75,9 @@ main{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
-    /*text-align: center; */
 }
 .action-subtitle{
-    font-size: 24px;
+    font-size: 20px;
     color: rgba(37, 36, 50, 0.5);
 }
 img{
@@ -103,13 +107,11 @@ img{
     color: #4E47FF;
     margin: 0;
     line-height: 0px;
-    /* padding: 20px; */
 }
 .heading-subtitle{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
     margin:0;
-    /* padding: 20px; */
 }
 .joined{
     text-align: center;
@@ -120,6 +122,7 @@ img{
 }
 
 /* lets get in */
+
 .lets-get-in-content{
     display: flex;
     margin: 0px 140px;
@@ -137,11 +140,58 @@ img{
     line-height: 0px;
     
 }
+input{
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+.text{
+     border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
 .submit{
     display: block;
 }
 
+.user-review{
+    display: flex;
+    margin: 0px 140px;
+    justify-content: space-around;
+    padding: 30px;
+    margin-bottom: 150px;
+}
+.what-user-say{
+    margin-top: 100px;
+}
+.user{
+    background-color: white;
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px; 
+}
+.user-description{
+    margin-bottom: 40px;
+}
+.comment{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.user-name{
+    font-size: 13px;
+    line-height: 0;
+    color: rgba(0, 0, 0, 0.899);
+}
+.date{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.767);
+}
+
 /* footer */
+
 footer{
     margin: 70px 140px;
     text-align: center;
